@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19E287" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Modules" representedClassName="Modules" syncable="YES" codeGenerationType="class">
+        <attribute name="codes" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="names" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Task" inverseName="modulesTask" inverseEntity="Task"/>
+    </entity>
+    <entity name="Task" representedClassName="Task" codeGenerationType="class">
+        <attribute name="modules" optional="YES" attributeType="String"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="modulesTask" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Modules" inverseName="names" inverseEntity="Modules"/>
+        <userInfo/>
+    </entity>
+    <elements>
+        <element name="Modules" positionX="295.5546875" positionY="265.89453125" width="128" height="88"/>
+        <element name="Task" positionX="492.3671875" positionY="379.3828125" width="128" height="103"/>
+    </elements>
+</model>

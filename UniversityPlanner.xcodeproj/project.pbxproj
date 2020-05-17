@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A072EDA17A845B29EBBC4759 /* Pods_UniversityPlanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5A9C4EC6C109CC61043C9A /* Pods_UniversityPlanner.framework */; };
+		D007D9FA24510DF300C58D39 /* ModulesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D007D9F924510DF300C58D39 /* ModulesDetailViewController.swift */; };
+		D007D9FC24511A7600C58D39 /* EditModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D007D9FB24511A7600C58D39 /* EditModuleViewController.swift */; };
+		D0235C9E24559F300024B28C /* BarchartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0235C9D24559F300024B28C /* BarchartViewController.swift */; };
+		D04711CA244F316400A9535B /* LabelStrings.plist in Resources */ = {isa = PBXBuildFile; fileRef = D04711C9244F316400A9535B /* LabelStrings.plist */; };
+		D04711CC244F34F600A9535B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D04711CB244F34F600A9535B /* Settings.bundle */; };
+		D06555CD244DDA990016EC24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06555CC244DDA990016EC24 /* AppDelegate.swift */; };
+		D06555D0244DDA990016EC24 /* UniversityPlanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D06555CE244DDA990016EC24 /* UniversityPlanner.xcdatamodeld */; };
+		D06555D2244DDA990016EC24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06555D1244DDA990016EC24 /* SceneDelegate.swift */; };
+		D06555D4244DDA990016EC24 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06555D3244DDA990016EC24 /* MasterViewController.swift */; };
+		D06555D6244DDA990016EC24 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06555D5244DDA990016EC24 /* DetailViewController.swift */; };
+		D06555D9244DDA990016EC24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06555D7244DDA990016EC24 /* Main.storyboard */; };
+		D06555DB244DDA9E0016EC24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D06555DA244DDA9E0016EC24 /* Assets.xcassets */; };
+		D06555DE244DDA9E0016EC24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06555DC244DDA9E0016EC24 /* LaunchScreen.storyboard */; };
+		D06555F4244DF5F80016EC24 /* AddModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06555F3244DF5F80016EC24 /* AddModuleViewController.swift */; };
+		D06555FD244E10A40016EC24 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D06555FB244E10A40016EC24 /* EventKitUI.framework */; };
+		D06555FE244E10A40016EC24 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D06555FC244E10A40016EC24 /* EventKit.framework */; };
+		D0655602244E2ED60016EC24 /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0655601244E2ED60016EC24 /* ReminderViewController.swift */; };
+		D0655604244E33900016EC24 /* AddCalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0655603244E33900016EC24 /* AddCalenderViewController.swift */; };
+		D0A6E48D2451CC10002DC547 /* NSUIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A6E48C2451CC10002DC547 /* NSUIColor+Hex.swift */; };
+		D0A6E49424523282002DC547 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A6E49324523282002DC547 /* AddTaskViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A5A9C4EC6C109CC61043C9A /* Pods_UniversityPlanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversityPlanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DDB1DDDCD0E4872F08BE46 /* Pods-UniversityPlanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversityPlanner.release.xcconfig"; path = "Target Support Files/Pods-UniversityPlanner/Pods-UniversityPlanner.release.xcconfig"; sourceTree = "<group>"; };
+		D007D9F924510DF300C58D39 /* ModulesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulesDetailViewController.swift; sourceTree = "<group>"; };
+		D007D9FB24511A7600C58D39 /* EditModuleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditModuleViewController.swift; sourceTree = "<group>"; };
+		D0235C9D24559F300024B28C /* BarchartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarchartViewController.swift; sourceTree = "<group>"; };
+		D04711C9244F316400A9535B /* LabelStrings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = LabelStrings.plist; sourceTree = "<group>"; };
+		D04711CB244F34F600A9535B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		D06555C9244DDA990016EC24 /* UniversityPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversityPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06555CC244DDA990016EC24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D06555CF244DDA990016EC24 /* UniversityPlanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UniversityPlanner.xcdatamodel; sourceTree = "<group>"; };
+		D06555D1244DDA990016EC24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D06555D3244DDA990016EC24 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		D06555D5244DDA990016EC24 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D06555D8244DDA990016EC24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D06555DA244DDA9E0016EC24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D06555DD244DDA9E0016EC24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D06555DF244DDA9E0016EC24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D06555F3244DF5F80016EC24 /* AddModuleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddModuleViewController.swift; sourceTree = "<group>"; };
+		D06555FB244E10A40016EC24 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		D06555FC244E10A40016EC24 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		D0655601244E2ED60016EC24 /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
+		D0655603244E33900016EC24 /* AddCalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCalenderViewController.swift; sourceTree = "<group>"; };
+		D0A6E48C2451CC10002DC547 /* NSUIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSUIColor+Hex.swift"; sourceTree = "<group>"; };
+		D0A6E49324523282002DC547 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		F2E4187C3A6657946329291A /* Pods-UniversityPlanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversityPlanner.debug.xcconfig"; path = "Target Support Files/Pods-UniversityPlanner/Pods-UniversityPlanner.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D06555C6244DDA990016EC24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06555FD244E10A40016EC24 /* EventKitUI.framework in Frameworks */,
+				D06555FE244E10A40016EC24 /* EventKit.framework in Frameworks */,
+				A072EDA17A845B29EBBC4759 /* Pods_UniversityPlanner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1CBEAF487D5BD0EF0D1433C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2E4187C3A6657946329291A /* Pods-UniversityPlanner.debug.xcconfig */,
+				B5DDB1DDDCD0E4872F08BE46 /* Pods-UniversityPlanner.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D06555C0244DDA990016EC24 = {
+			isa = PBXGroup;
+			children = (
+				D06555CB244DDA990016EC24 /* UniversityPlanner */,
+				D06555CA244DDA990016EC24 /* Products */,
+				D06555FA244E10A40016EC24 /* Frameworks */,
+				C1CBEAF487D5BD0EF0D1433C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D06555CA244DDA990016EC24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D06555C9244DDA990016EC24 /* UniversityPlanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D06555CB244DDA990016EC24 /* UniversityPlanner */ = {
+			isa = PBXGroup;
+			children = (
+				D06555CC244DDA990016EC24 /* AppDelegate.swift */,
+				D06555D1244DDA990016EC24 /* SceneDelegate.swift */,
+				D06555D3244DDA990016EC24 /* MasterViewController.swift */,
+				D06555D5244DDA990016EC24 /* DetailViewController.swift */,
+				D06555F3244DF5F80016EC24 /* AddModuleViewController.swift */,
+				D0655601244E2ED60016EC24 /* ReminderViewController.swift */,
+				D0655603244E33900016EC24 /* AddCalenderViewController.swift */,
+				D007D9FB24511A7600C58D39 /* EditModuleViewController.swift */,
+				D007D9F924510DF300C58D39 /* ModulesDetailViewController.swift */,
+				D0A6E48C2451CC10002DC547 /* NSUIColor+Hex.swift */,
+				D0A6E49324523282002DC547 /* AddTaskViewController.swift */,
+				D0235C9D24559F300024B28C /* BarchartViewController.swift */,
+				D06555D7244DDA990016EC24 /* Main.storyboard */,
+				D06555DA244DDA9E0016EC24 /* Assets.xcassets */,
+				D06555DC244DDA9E0016EC24 /* LaunchScreen.storyboard */,
+				D04711C9244F316400A9535B /* LabelStrings.plist */,
+				D06555DF244DDA9E0016EC24 /* Info.plist */,
+				D06555CE244DDA990016EC24 /* UniversityPlanner.xcdatamodeld */,
+				D04711CB244F34F600A9535B /* Settings.bundle */,
+			);
+			path = UniversityPlanner;
+			sourceTree = "<group>";
+		};
+		D06555FA244E10A40016EC24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D06555FC244E10A40016EC24 /* EventKit.framework */,
+				D06555FB244E10A40016EC24 /* EventKitUI.framework */,
+				5A5A9C4EC6C109CC61043C9A /* Pods_UniversityPlanner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D06555C8244DDA990016EC24 /* UniversityPlanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D06555E2244DDA9E0016EC24 /* Build configuration list for PBXNativeTarget "UniversityPlanner" */;
+			buildPhases = (
+				C55A9A221362B851EC327794 /* [CP] Check Pods Manifest.lock */,
+				D06555C5244DDA990016EC24 /* Sources */,
+				D06555C6244DDA990016EC24 /* Frameworks */,
+				D06555C7244DDA990016EC24 /* Resources */,
+				F1D57427D71D26AD04840C9B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UniversityPlanner;
+			productName = UniversityPlanner;
+			productReference = D06555C9244DDA990016EC24 /* UniversityPlanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D06555C1244DDA990016EC24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Van Quang Nguyen";
+				TargetAttributes = {
+					D06555C8244DDA990016EC24 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D06555C4244DDA990016EC24 /* Build configuration list for PBXProject "UniversityPlanner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D06555C0244DDA990016EC24;
+			productRefGroup = D06555CA244DDA990016EC24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D06555C8244DDA990016EC24 /* UniversityPlanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D06555C7244DDA990016EC24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06555DE244DDA9E0016EC24 /* LaunchScreen.storyboard in Resources */,
+				D06555DB244DDA9E0016EC24 /* Assets.xcassets in Resources */,
+				D04711CC244F34F600A9535B /* Settings.bundle in Resources */,
+				D04711CA244F316400A9535B /* LabelStrings.plist in Resources */,
+				D06555D9244DDA990016EC24 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C55A9A221362B851EC327794 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UniversityPlanner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1D57427D71D26AD04840C9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniversityPlanner/Pods-UniversityPlanner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniversityPlanner/Pods-UniversityPlanner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UniversityPlanner/Pods-UniversityPlanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D06555C5244DDA990016EC24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0655604244E33900016EC24 /* AddCalenderViewController.swift in Sources */,
+				D0A6E49424523282002DC547 /* AddTaskViewController.swift in Sources */,
+				D007D9FA24510DF300C58D39 /* ModulesDetailViewController.swift in Sources */,
+				D06555F4244DF5F80016EC24 /* AddModuleViewController.swift in Sources */,
+				D06555D4244DDA990016EC24 /* MasterViewController.swift in Sources */,
+				D0655602244E2ED60016EC24 /* ReminderViewController.swift in Sources */,
+				D06555D0244DDA990016EC24 /* UniversityPlanner.xcdatamodeld in Sources */,
+				D06555D6244DDA990016EC24 /* DetailViewController.swift in Sources */,
+				D06555CD244DDA990016EC24 /* AppDelegate.swift in Sources */,
+				D0A6E48D2451CC10002DC547 /* NSUIColor+Hex.swift in Sources */,
+				D007D9FC24511A7600C58D39 /* EditModuleViewController.swift in Sources */,
+				D0235C9E24559F300024B28C /* BarchartViewController.swift in Sources */,
+				D06555D2244DDA990016EC24 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D06555D7244DDA990016EC24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D06555D8244DDA990016EC24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D06555DC244DDA9E0016EC24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D06555DD244DDA9E0016EC24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D06555E0244DDA9E0016EC24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D06555E1244DDA9E0016EC24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D06555E3244DDA9E0016EC24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2E4187C3A6657946329291A /* Pods-UniversityPlanner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BF92C96D3;
+				INFOPLIST_FILE = UniversityPlanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shrekcolour.UniversityPlanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D06555E4244DDA9E0016EC24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5DDB1DDDCD0E4872F08BE46 /* Pods-UniversityPlanner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BF92C96D3;
+				INFOPLIST_FILE = UniversityPlanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shrekcolour.UniversityPlanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D06555C4244DDA990016EC24 /* Build configuration list for PBXProject "UniversityPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06555E0244DDA9E0016EC24 /* Debug */,
+				D06555E1244DDA9E0016EC24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D06555E2244DDA9E0016EC24 /* Build configuration list for PBXNativeTarget "UniversityPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06555E3244DDA9E0016EC24 /* Debug */,
+				D06555E4244DDA9E0016EC24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D06555CE244DDA990016EC24 /* UniversityPlanner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D06555CF244DDA990016EC24 /* UniversityPlanner.xcdatamodel */,
+			);
+			currentVersion = D06555CF244DDA990016EC24 /* UniversityPlanner.xcdatamodel */;
+			path = UniversityPlanner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D06555C1244DDA990016EC24 /* Project object */;
+}
